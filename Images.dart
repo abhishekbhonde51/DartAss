@@ -98,12 +98,10 @@ class _ImageAppState extends State<ImageApp> {
                     counter++;
                   });
                 },
-                child: Text('click here'))
+                child: Text('change image'))
           ],
         ),
       ),
     );
   }
 }
-
-
