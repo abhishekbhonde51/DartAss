@@ -56,7 +56,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         ),
         child: AppBar(
           title: const Text(
-            'Assignment App',
+            'Assignment ',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
@@ -88,4 +88,3 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => Size.fromHeight(kToolbarHeight);
 }
-
